@@ -1,10 +1,16 @@
 import Header from "../components/header";
+import MainHero from "../components/hero/main";
+import Listings from "../components/listings";
+import Footer from "../components/footer";
 
 const App = () => {
   return (
-    <div>
+    <>
       <Header />
-    </div>
+      <MainHero />
+      <Listings refine="entire" />
+      <Footer />
+    </>
   )
 }
 
