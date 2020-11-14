@@ -7,8 +7,10 @@ const App = () => {
   return (
     <>
       <Header />
-      <MainHero />
-      <Listings refine="entire" />
+      <div className="page-content">
+        <MainHero />
+        <Listings refine="entire" />
+      </div>
       <Footer />
     </>
   )
